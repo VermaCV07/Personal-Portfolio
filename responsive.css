@@ -1,0 +1,345 @@
+/* 850px */
+@media  (max-width:850px){
+    nav ul{
+        width: 100%;
+        position:fixed;
+        height: auto;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all 0.5s ease-in-out;
+    }
+    nav ul li {
+        display: block;
+        background-color: #0f161f;
+        width: 100%;
+        padding-bottom: 2rem;
+        font-size: 16px;
+        padding-top: 2rem;
+        overflow: hidden;
+    }
+    #humberg{
+        display: block;
+    }
+    
+   #check:checked ~ ul{
+    left: -10%;
+    position:absolute;
+   }
+  
+   #check:checked ~ label #humberg{
+    display: none;
+   }
+   #check:checked ~ label #cancel{
+    display: block;
+   }
+
+   .hero_row img{
+    width: 10rem;
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
+}
+
+   .about-para{
+    padding-top: 1.5rem ;
+   }
+
+
+.card-row .card{
+    width: 200px;
+}
+
+.form .container .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+}
+/* 850px */
+
+/* 200px */
+@media (max-width:200px) {
+
+    .hero_row img{
+        width: 5rem;
+        border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
+    }
+
+    .container_head h1{
+        font-size: 15px;
+        padding: 2rem 0 0 0;
+        text-align: center;
+    }
+    
+    .about_picture{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .about_picture img{
+        width: 5rem;
+        
+    }
+    .about-para{
+        color: aliceblue;
+        font-size: 10px;
+        text-align: justify;
+    }
+
+    .social-item{
+        display: block;
+        align-items: start;
+        justify-content: start;
+       
+    }
+
+    .skills-row h4{
+        font-size: 15px;
+    }
+
+    .skills-row h5{
+        font-size: 10px;
+    }
+
+    .card-row .card{
+        width: 80%;
+        display: flex;
+        align-items: center;
+        margin: 3rem;
+        padding: 2rem 0 0 0;
+        transition: 0.5s all;   
+    }
+
+    .Education-div .course h5{
+        color: black;
+        font-size: 10px;
+    }
+    
+    .Education-div .course p{
+        font-size: 8px;
+        color: rgb(69, 69, 214);
+    }
+
+     .bx h4{
+        font-size: 15px;
+     }
+    
+}
+/* 200px */
+
+
+/* 170px */
+@media (max-width:170px) {
+    .greet{
+        font-size: 7px;
+    }
+    .name{
+        
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .love{
+        
+        font-size: 10px;
+        font-weight: bold;
+    }
+    .what{
+      
+        font-size: 7px;
+    }
+    .hire_btn{
+        font-size: medium;
+        font-weight: bold;
+        border-radius: 5px;
+    }
+  
+    .card .card-body .btn-primary{
+        font-size: 7px;
+    }
+
+    .form-description{
+        font-size: 12px;
+    }
+
+    .card-row .card h5{
+        font-size: 10px;  
+        overflow: hidden;
+    }
+    .card-row .card .icon-div{
+        padding: 5px 0 5px 0;
+    }
+
+    footer .container-fluid .row{
+        padding: 1.5rem 0;
+        color: rgb(199, 221, 228);
+        font-size: 10px;
+        text-align: center;
+    } 
+    footer .rights{
+        color:rgb(199, 221, 228);
+        text-align: center;
+        font-size: 10px;
+    }
+}
+/* 170px */
+
+/* 125px */
+@media (max-width:125px) {
+    .hire_btn{
+        font-size: 7px;
+        padding: 3px 6px;
+    }
+}
+/* 125px */
+
+/* 100px */
+@media (max-width:100px){
+    nav ul li a{
+        font-size:10px;
+    }
+
+    .hire_button{
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .hire_btn{
+        font-size: 6px;
+        padding: 3px 6px;
+        border-radius:4px;
+    }
+    .name{
+        font-size: 6px;
+    }
+    .love{
+        font-size: 5px;
+    }
+    .container_head h1{
+        font-size: 8px;
+        padding: 2rem 0 0 0;
+        text-align: center;
+    }
+
+    .about-para{
+        color: aliceblue;
+        font-size: 5px;
+        text-align: justify;
+        overflow: hidden;
+    }
+
+    .social-item{
+       display: contents;
+        align-items: start;
+        justify-content: start;
+    }
+
+    .skills-row h4{
+        font-size: 10px;
+    }
+    .card .card-body .card-title{
+        font-size: 10px;
+    }
+    .card .card-body .card-text{
+        font-size: 8px;
+    }
+    .card .card-body .btn-primary{
+        font-size: 4px;
+    }
+
+    .Education-div .course h5{
+        color: black;
+        font-size: 4px;
+    }
+    
+    .Education-div .course p{
+        font-size: 2px;
+        color: rgb(69, 69, 214);
+    }
+   .form-container{
+    padding: 0 30px;
+   }
+   
+    .form-description{
+        overflow: hidden;
+        font-size: 7px;
+        padding: 0 3px;
+    }
+    .form-label{
+        font-size: 5px;
+        text-align: center;
+    }
+
+.form .col-12 .btn{
+    width: 2rem;
+    font-size: 5px;
+    text-align: start;
+}
+
+footer .container .row{
+    padding: 1.5rem 0;
+    color: rgb(199, 221, 228);
+    text-align: center;
+    font-size: 6px;
+    overflow: hidden;
+} 
+footer .rights{
+    color:rgb(199, 221, 228);
+    text-align: center;
+    font-size: 6px;
+}
+}
+/* 100px */
+
+/* 80px */
+@media (max-width:80px) {
+    .card .card-body .btn-primary{
+        width: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        font-size: 3px;
+    }
+}
+/* 80px */
+
+/* 56px */
+@media (max-width:56px)
+{
+    .about_picture img{
+        width: 2rem;
+        
+    }
+    .socials{
+       display: contents;
+        border: 2px solid red;
+    }
+    .social-item{
+        display: contents;
+        left: 0%;
+        
+         align-items: start;
+         justify-content: start;
+     }
+
+     .skills-row h4{
+        font-size: 5px;
+        text-align: center;
+
+     }
+     .skills-row h5{
+        text-align: center;
+        font-size: 4px;
+     }
+
+     .card-row .card h5{
+        font-size: 5px;
+     }
+
+     .form-description{
+        font-size: 5px;
+        padding: 0 3px;
+    }
+
+    }
+    /* 56px */
